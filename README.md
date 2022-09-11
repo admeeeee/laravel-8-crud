@@ -20,9 +20,8 @@ php artisan serve
 ## Before starting <br>
 Create a database <br>
 ```
-mysql
-create database laravel-crud;
-exit;
+
+create database : laravel-crud;
 ```
 
 Setup your database credentials in the .env file <br>
@@ -35,7 +34,7 @@ DB_USERNAME=root
 DB_PASSWORD={PASSWORD}
 ```
 
-Migrate the tables
+Migrate the tables :
 ```
 php artisan migrate
 ```	
