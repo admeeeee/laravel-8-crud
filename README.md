@@ -39,3 +39,8 @@ Migrate the tables
 ```
 php artisan migrate
 ```	
+
+## START LARAVEL CRUD
+```
+http://127.0.0.1:8000/todolists
+```
