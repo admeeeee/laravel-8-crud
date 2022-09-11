@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\TodolistsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('todolists',TodolistsController::class);
+Route::post('/getUpdate_task',[TodolistsController::class, 'getUpdate_task'])->name('get.todo.update_task');
+Route::post('/getTodoDetails',[TodolistsController::class, 'getTodoDetails'])->name('get.todo.details');
+Route::post('/updateTodoDetails',[TodolistsController::class, 'updateTodoDetails'])->name('update.task.details');
+Route::post('/deleteTodo',[TodolistsController::class,'deleteTodo'])->name('delete.todo');
