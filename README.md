@@ -1,10 +1,5 @@
-## Laravel 8 For Beginners
+## Laravel 8 CRUD
 
-This repository is linked to [this youtube video]( https://www.youtube.com/watch?v=376vZ1wNYPA&t=19190s) where I’ll be going over all topics that you need to know in order to become a Laravel Developer.
-
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
 
 ## Requirements
 •	PHP 7.3 or higher <br>
@@ -14,8 +9,8 @@ This repository is linked to [this youtube video]( https://www.youtube.com/watch
 ## Usage <br>
 Setting up your development environment on your local machine: <br>
 ```
-git clone git@github.com:codewithdary/laravel8-for-beginners.git
-cd laravel8-for-beginners
+git clone git@github.com:admeeeee/laravel-8-crud.git
+cd laravel-8-crud
 cp .env.example .env
 composer install
 php artisan key:generate
@@ -36,7 +31,7 @@ Setup your database credentials in the .env file <br>
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=cars
+DB_DATABASE=laravel-crud
 DB_USERNAME={USERNAME}
 DB_PASSWORD={PASSWORD}
 ```
