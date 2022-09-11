@@ -3,7 +3,6 @@
 
 ## Requirements
 •	PHP 7.3 or higher <br>
-•	Node 12.13.0 or higher
 
 
 ## Usage <br>
@@ -22,7 +21,7 @@ php artisan serve
 Create a database <br>
 ```
 mysql
-create database cars;
+create database laravel-crud;
 exit;
 ```
 
