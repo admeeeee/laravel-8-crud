@@ -3,7 +3,7 @@
 
 ## Requirements
 •	PHP 7.3 or higher <br>
-
+•	Composer <br>
 
 ## Usage <br>
 Setting up your development environment on your local machine: <br>
